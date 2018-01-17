@@ -31,7 +31,7 @@ driver.close()
 #pull all directory names from 'test'
 FolderContents = os.listdir("/home/mike/test/")
 
-#Loop through list of folder contents and delete directories older than 15 unit(days)
+#Loop through list of folder contents and delete directories older than 15 unit(days) !!!Doesn't work yet!!!
 
 i = 0
 while i < len(FolderContents):
